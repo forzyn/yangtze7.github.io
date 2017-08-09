@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Coding,我," />
+  <meta name="keywords" content="Coding,GIS," />
 
 
 
@@ -94,20 +94,18 @@
 
 
 
-<meta name="description" content="C#初认识">
-<meta name="keywords" content="Coding,我">
+<meta name="description" content="AE+C#二次开发">
+<meta name="keywords" content="Coding,GIS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C#学习笔记1">
-<meta property="og:url" content="http://shicj.top/2017/08/09/学习笔记1/index.html">
+<meta property="og:title" content="AE+C#学习笔记">
+<meta property="og:url" content="http://shicj.top/2017/08/10/AE+C-sharp学习笔记/index.html">
 <meta property="og:site_name" content="Yangtze No.7">
-<meta property="og:description" content="C#初认识">
+<meta property="og:description" content="AE+C#二次开发">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://shicj.top/images/捕获1.GIF">
-<meta property="og:updated_time" content="2017-08-09T12:53:47.488Z">
+<meta property="og:updated_time" content="2017-08-09T17:49:17.514Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="C#学习笔记1">
-<meta name="twitter:description" content="C#初认识">
-<meta name="twitter:image" content="http://shicj.top/images/捕获1.GIF">
+<meta name="twitter:title" content="AE+C#学习笔记">
+<meta name="twitter:description" content="AE+C#二次开发">
 
 
 
@@ -136,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="http://shicj.top/2017/08/09/学习笔记1/"/>
+  <link rel="canonical" href="http://shicj.top/2017/08/10/AE+C-sharp学习笔记/"/>
 
 
 
 
 
-  <title>C#学习笔记1 | Yangtze No.7</title>
+  <title>AE+C#学习笔记 | Yangtze No.7</title>
   
 
 
@@ -285,7 +283,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://shicj.top/2017/08/09/学习笔记1/">
+    <link itemprop="mainEntityOfPage" href="http://shicj.top/2017/08/10/AE+C-sharp学习笔记/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yangtze No.7">
@@ -302,7 +300,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">C#学习笔记1</h1>
+          <h1 class="post-title" itemprop="name headline">AE+C#学习笔记</h1>
         
 
         <div class="post-meta">
@@ -314,8 +312,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-09T00:00:00+08:00">
-                2017-08-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-10T00:00:00+08:00">
+                2017-08-10
               </time>
             
 
@@ -337,8 +335,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/C/" itemprop="url" rel="index">
-                    <span itemprop="name">C#</span>
+                  <a href="/categories/GIS学习/" itemprop="url" rel="index">
+                    <span itemprop="name">GIS学习</span>
                   </a>
                 </span>
 
@@ -356,8 +354,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/08/09/学习笔记1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count hc-comment-count" data-xid="2017/08/09/学习笔记1/" itemprop="commentsCount"></span>
+                <a href="/2017/08/10/AE+C-sharp学习笔记/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count hc-comment-count" data-xid="2017/08/10/AE+C-sharp学习笔记/" itemprop="commentsCount"></span>
                 </a>
               </span>
               <!--/noindex-->
@@ -386,40 +384,39 @@
       
 
       
-        <h2 id="C-初认识"><a href="#C-初认识" class="headerlink" title="C#初认识"></a>C#初认识</h2><a id="more"></a>
-<p>之前从来没写过C#，之前对它唯一的了解就是它的读法C Sharp,看看wiki的解释</p>
-<p><u>C#是微软推出的一种基于.NET框架的、面向对象的高级编程语言。C#的发音为“C sharp”，模仿音乐上的音名“C♯”（C调升），是C语言的升级的意思。其正确写法应和音名一样为“C♯”[来源请求]，但大多数情况下“♯”符号被井号“#”所混用；两者差别是：“♯”的笔画是上下偏斜的，而“#”的笔画是左右偏；C#看起来像是“C++”中两个加号重叠在一起斜，C♯由C语言和C++派生而来，继承了其强大的性能，同时又以.NET框架类库作为基础，拥有类似Visual Basic的快速开发能力。</u></p>
-<p>继承了C和C++的一些特性，刚刚好，大一上开C，大一下开C++，暑假学C#</p>
-<h2 id="第一个C-程序–Hello-World"><a href="#第一个C-程序–Hello-World" class="headerlink" title="第一个C#程序–Hello,World"></a>第一个C#程序–Hello,World</h2><p>using System;<br>using System.Collections.Generic;<br>using System.Linq;<br>using System.Text;</p>
-<p>namespace ConsoleApplication1<br>{<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">class Program</div><div class="line">&#123;</div><div class="line">    static void Main(string[] args)</div><div class="line">    &#123;</div><div class="line">        Console.WriteLine(&quot;Hello,World&quot;);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>}</p>
-<p>刚开始看就发现class,联想到c++的类，这里体现了C#<u>完全面向对象</u>的特性，所有的事件都被封装到类中，不存在全局常数、变量</p>
-<p>然后发现C#是有严格的大小写，有点不习惯。不过学长总结的大小写规范看起来还不错：</p>
-<p><strong>关键字:全小写</strong></p>
-<p><strong>命名空间/类型/方法/属性/public 字段 : 每个单词首字母均大写</strong></p>
-<p><strong>变量名/字段 : 第一个单词首字母小写，其余单词大写</strong></p>
-<h2 id="第一个窗体程序"><a href="#第一个窗体程序" class="headerlink" title="第一个窗体程序"></a>第一个窗体程序</h2><p><img src="\images\捕获1.GIF" alt="1"></p>
-<p>原来的黑框变成这个样子。。。</p>
-<p>这就是所谓的有<em>类似Visual Basic的快速开发能力</em></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">public partial class Form1 : Form</div><div class="line">&#123;</div><div class="line">    public Form1()</div><div class="line">    &#123;</div><div class="line">        InitializeComponent();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    private void button1_Click(object sender, EventArgs e)</div><div class="line">    &#123;</div><div class="line">        MessageBox.Show(&quot;Hello,World&quot;);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>窗体上可以添加控件，每个控件对应事件及属性,button1_Click就是一个事件，事件会激活{}内的方法</p>
-<h2 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h2><h3 id="读取文件"><a href="#读取文件" class="headerlink" title="读取文件"></a>读取文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">   private void button2_Click(object sender, EventArgs e)</div><div class="line">   &#123;</div><div class="line">       string pOneline=null;</div><div class="line">OpenFileDialog pOpenfile = new OpenFileDialog();</div><div class="line">       pOpenfile.Title = &quot;请选择txt文件&quot;;</div><div class="line">       pOpenfile.Filter = &quot;txt文件|*.txt|所有文件|*.*&quot;;</div><div class="line">       if (pOpenfile.ShowDialog() == DialogResult.OK)</div><div class="line">       &#123;</div><div class="line">           string pFileFullPath = pOpenfile.FileName;</div><div class="line">           this.FilePath.Text = pFileFullPath;</div><div class="line">           #region</div><div class="line"> using (StreamReader sr = new StreamReader(pFileFullPath, Encoding.GetEncoding(&quot;gb2312&quot;)))</div><div class="line">           &#123;</div><div class="line">               while (!sr.EndOfStream)</div><div class="line">               &#123;</div><div class="line">                    pOneline = sr.ReadLine();</div><div class="line">               &#125;</div><div class="line">               sr.Close();</div><div class="line">             </div><div class="line">           #endregion</div><div class="line">           &#125;</div><div class="line"></div><div class="line">           </div><div class="line">       &#125;</div><div class="line"></div><div class="line">   &#125;</div></pre></td></tr></table></figure>
-<ol>
-<li><p>设置按钮【打开文件】的代码</p>
-</li>
-<li><p>定义新的文件打开位置控件</p>
-</li>
-<li><p>设置文件过滤的后缀</p>
-</li>
-<li><p>如果有选择打开文件</p>
-</li>
-<li><p>创建文件流对象, 读取打开的文件</p>
-</li>
-<li><p>如果读到的一行内容不为空<br>内容赋给pOneline</p>
-<h3 id="保存文件"><a href="#保存文件" class="headerlink" title="保存文件"></a>保存文件</h3></li>
-</ol>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">private void button2_Click(object sender, EventArgs e)</div><div class="line">      &#123;</div><div class="line">SaveFileDialog pSavefile = new SaveFileDialog();</div><div class="line">pSavefile.TiTle =&quot;请选择保存路径和名称&quot;;</div><div class="line">       pSavefile.Filter = &quot;txt文件|*.txt|所有文件|*.*&quot;;</div><div class="line">       if (pSavefile.ShowDialog() == DialogResult.OK)</div><div class="line">        &#123;</div><div class="line">        string pFileFullPath = pSavefile.FileName;</div><div class="line"> FileStream pFileStream = new FileStream(pFlieFullPath,FileMode.Create);  </div><div class="line"> StreamWriter sw = new StreamWriter(pFileStream);</div><div class="line">        sw.Write(textBox1.Text);</div><div class="line">        sw.Flush();</div><div class="line">        sw.Close();</div><div class="line">        pFileStream.Close();</div><div class="line">        &#125;</div><div class="line">      &#125;</div></pre></td></tr></table></figure>
-<h2 id="未完待续。。。"><a href="#未完待续。。。" class="headerlink" title="未完待续。。。"></a>未完待续。。。</h2>
+        <h1 id="AE-C-二次开发"><a href="#AE-C-二次开发" class="headerlink" title="AE+C#二次开发"></a>AE+C#二次开发</h1><a id="more"></a>
+<h2 id="ArcEngine"><a href="#ArcEngine" class="headerlink" title="ArcEngine"></a>ArcEngine</h2><p>ArcEngine是独立的嵌入式组件，不依赖ArcGISDesktop桌面平台</p>
+<p>使用ArcGIS Engine，开发人员可以将GIS 功能嵌入到已有的应用软件中，如自定义行业专用产品； 或嵌入到商业生产应用软件中，如Mirosoftf Word 和Excel；还可以创建集中式自定义应用软件，并将其发送给机构内的多个用户。</p>
+<p> ArcGIS Engine 由两个产品组成： </p>
+<p>面向开发人员的软件开发包(ArcGIS Engine Developer kit) </p>
+<p>面向最终用户的运行时环境(ArcGIS Engine  Runtime)</p>
+<p>ArcGIS Engine 开发工具包是一个基于组件的软件开发产品，可用于构建自定义GIS 和制图应用软件。它并不是一个终端用户产品，而是软件开发人员的工具包，支持四种开发环境（C＋＋， COM， .NET，以及Java），适于为Windows、UNIX 或Linux 用户构建基础制图和综合动态GIS 应用软件。 </p>
+<p> ArcGIS Engine Runtime 是一个使终端用户软件能够运行的核心ArcObjects 组件产品，并且将被安装在每一台运行ArcGIS Engine 应用程序的计算机上。</p>
+<p>SDK for c#，可以在Visual Studio2008等系列中加载工具箱控件后进行编程开发。</p>
+<h2 id="基于C-二次开发实例"><a href="#基于C-二次开发实例" class="headerlink" title="基于C#二次开发实例"></a>基于C#二次开发实例</h2><p>可以添加以下窗体</p>
+<p>axToolbarControl</p>
+<p>axMapControl</p>
+<p>通过以下代码实现打开shp矢量及栅格数据</p>
+<h3 id="打开shape数据"><a href="#打开shape数据" class="headerlink" title="打开shape数据"></a>打开shape数据</h3><p>  创建工作空间工厂<br><code>IWorkspace pWorkspace = pWorkspaceFactory.OpenFromFile(pFileFolder, 0);</code></p>
+<p>打开shapefile工作空间<br> <code>IFeatureWorkspace pFeatureWorkspace = (IFeatureWorkspace)pWorkspace;</code></p>
+<p>打开要素</p>
+<p><code>IFeatureClass pFeatureClass = pFeatureWorkspace.OpenFeatureClass(pFileName);</code></p>
+<p>创建要素图层</p>
+<p> <code>IFeatureLayer pFeatureLayer = new FeatureLayer();</code></p>
+<p>关联要素图层和要素类</p>
+<p><code>pFeatureLayer.FeatureClass = pFeatureClass;</code></p>
+<p><code>pFeatureLayer.Name = pFeatureClass.AliasName;</code></p>
+<p>添加到地图</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">this.axMapControl1.AddLayer(pFeatureLayer);</div><div class="line">this.axMapControl1.ActiveView.Refresh();</div></pre></td></tr></table></figure>
+<h3 id="打开栅格数据"><a href="#打开栅格数据" class="headerlink" title="打开栅格数据"></a>打开栅格数据</h3><p>创建工作空间工厂   </p>
+<p><code>IWorkspaceFactory RasterWsF = new RasterWorkspaceFactory();</code></p>
+<p>打开栅格数据工作空间</p>
+<pre><code>IRasterWorkspace IRasterWs = RasterWs as IRasterWorkspace;
+IWorkspace RasterWs = RasterWsF.OpenFromFile(RasterFolder, 0);
+</code></pre><p>新建栅格数据集</p>
+<p><code>IRasterDataset IRasterDS = IRaster</code><br> 新建栅格图层</p>
+<p><code>IRasterLayer pRasterLayer;</code><br><code>pRasterLayer = new RasterLayerClass();</code><br><code>pRasterLayer.CreateFromRaster(IRasterDS.CreateDefaultRaster());</code><br>​    添加到地图<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ILayer pLayer = pRasterLayer as ILayer;</div><div class="line">this.axMapControl1.AddLayer(pLayer, 0);</div><div class="line">this.axMapControl1.ActiveView.Refresh();</div></pre></td></tr></table></figure></p>
+
       
     </div>
     
@@ -438,7 +435,7 @@
           
             <a href="/tags/Coding/" rel="tag"># Coding</a>
           
-            <a href="/tags/我/" rel="tag"># 我</a>
+            <a href="/tags/GIS/" rel="tag"># GIS</a>
           
         </div>
       
@@ -451,8 +448,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/08/08/八月份的前奏 /" rel="next" title="八月份的前奏">
-                <i class="fa fa-chevron-left"></i> 八月份的前奏
+              <a href="/2017/08/09/学习笔记1/" rel="next" title="C#学习笔记1">
+                <i class="fa fa-chevron-left"></i> C#学习笔记1
               </a>
             
           </div>
@@ -460,10 +457,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/08/10/AE+C-sharp学习笔记/" rel="prev" title="AE+C#学习笔记">
-                AE+C#学习笔记 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -617,7 +610,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#C-初认识"><span class="nav-number">1.</span> <span class="nav-text">C#初认识</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一个C-程序–Hello-World"><span class="nav-number">2.</span> <span class="nav-text">第一个C#程序–Hello,World</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一个窗体程序"><span class="nav-number">3.</span> <span class="nav-text">第一个窗体程序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文件操作"><span class="nav-number">4.</span> <span class="nav-text">文件操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#读取文件"><span class="nav-number">4.1.</span> <span class="nav-text">读取文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#保存文件"><span class="nav-number">4.2.</span> <span class="nav-text">保存文件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#未完待续。。。"><span class="nav-number">5.</span> <span class="nav-text">未完待续。。。</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#AE-C-二次开发"><span class="nav-number">1.</span> <span class="nav-text">AE+C#二次开发</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#ArcEngine"><span class="nav-number">1.1.</span> <span class="nav-text">ArcEngine</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基于C-二次开发实例"><span class="nav-number">1.2.</span> <span class="nav-text">基于C#二次开发实例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#打开shape数据"><span class="nav-number">1.2.1.</span> <span class="nav-text">打开shape数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#打开栅格数据"><span class="nav-number">1.2.2.</span> <span class="nav-text">打开栅格数据</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -765,7 +758,7 @@ View    <span id="busuanzi_value_site_pv"></span>  times
 		_hcwp.push({widget:"Bloggerstream", widget_id: 94239, selector:".hc-comment-count", label: "{\%COUNT%\}" });
 
 		
-		_hcwp.push({widget:"Stream", widget_id: 94239, xid: "2017/08/09/学习笔记1/"});
+		_hcwp.push({widget:"Stream", widget_id: 94239, xid: "2017/08/10/AE+C-sharp学习笔记/"});
 		
 
 		(function() {
